@@ -1,0 +1,21 @@
+{
+  "name": "anjuna-theme",
+  "displayName": "Anjuna Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.138.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Anjuna Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Anjuna Theme-color-theme.json"
+      }
+    ]
+  }
+}
