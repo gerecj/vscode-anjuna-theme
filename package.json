@@ -1,20 +1,45 @@
 {
   "name": "anjuna-theme",
   "displayName": "Anjuna Theme",
-  "description": "",
-  "version": "0.0.1",
+  "description": "A darker take on VS Code's Dark Modern theme",
+  "version": "0.1.0",
+  "publisher": "gerecj",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#191919",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gerecj/vscode-anjuna-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gerecj/vscode-anjuna-theme/issues"
+  },
+  "homepage": "https://github.com/gerecj/vscode-anjuna-theme#readme",
   "engines": {
     "vscode": "^1.138.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "color theme",
+    "dark",
+    "dark modern",
+    "minimal"
+  ],
   "contributes": {
+    "configurationDefaults": {
+      "workbench.experimental.modernUIEditorTabStyle": "pill"
+    },
     "themes": [
       {
-        "label": "Anjuna Theme",
+        "label": "Anjuna",
         "uiTheme": "vs-dark",
-        "path": "./themes/Anjuna Theme-color-theme.json"
+        "path": "./themes/anjuna-color-theme.json"
       }
     ]
   }
